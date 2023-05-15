@@ -1,148 +1,165 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hospital Regional Rio Grande</title>
-    
     <link rel="stylesheet" href="./estilo.css">
-    <!-- <link rel="stylesheet" href="./estilo.css">-->
-    <!-- <me falta el banner">-->
-    
-    
+    <section id="home"></section>
 </head>
 
 <body>
     <header>
+
         <a href="#" Class="logo">
             <img src="./imagenes/logo.jpg" id="logo" alt="">
         </a>
-        <h2>Hospital Regional Rio Grande</h2>
+        <h1>Hospital Regional Rio Grande</h1>
         <div>
             <nav>
-                <head></head> 
-                    <ul>
-                        <li><a href="" Class="nav-link"> Inicio </a></li>
-                        <li><a href="" Class="nav-link"> Servicios </a></li>
-                        <li><a href="" Class="nav-link"> Profesionales </a></li>
-                        <li><a href="" Class="nav-link"> Turnos </a></li>
-                        <li><a href="" Class="nav-link"> Contacto </a></li>
-                    </ul>
+                <ul>
+                    <li><a href="" Class="nav-link"> Inicio </a></li>
+                    <li><a href="#esp"> Servicios </a></li>
+
+                    <li><a href="#pro">Profesionales</a></li>
+
+                    <li><a href="#tur"> Turnos </a></li>
+                    <li><a href="#con"> Contacto </a></li>
+                </ul>
             </nav>
         </div>
-        
+
     </header>
-    <main class="Main">
+    <main>
         <section id="banner">
             <img src="./imagenes/banner.jpg" alt="">
         </section>
-        <section class="section">
-            <ul>
-                <h1>Especialidades</h1>
-                <li>Clinica</li>
-                <li>Pediatria</li>
-                <li>Oftalmologia</li>
-                <li>Oncologia</li>
-                <li>Dermatologia</li>
-                <li>Kinesiologia</li>
-                <li>Odontologia</li>
-                
-            </ul>
-        </section>
 
-        <section class="section2">
-            <ul>
-                <h1>Grilla de Turnos</h1>
-                <table>
-                    <tr>
-                        <td><strong>Clinica</strong></td>
-                        <td>lunes a viernes de 8 a 14 hs</td>
-                        <td>hrrg</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Pediatria</strong></td>
-                        <td><strong>lunes a viernes de 8 a 14 hs</strong></td>
-                        <td><strong>hrrg</strong></td>
-                    
-                    </tr>
-                    <tr>
-                        <td><strong>Oftalmologia</strong></td>
-                        <td><strong>lunes a viernes de 8 a 14 hs</strong></td>
-                        <td><strong>hrrg</strong></td>
-                    </tr>
-                    <tr>
-                        <td><strong>Dermatologia</strong></td>
-                        <td><strong>lunes a viernes de 8 a 14 hs</strong></td>
-                        <td><strong>hrrg</strong></td>
-                    </tr>
-                
-            </ul>
-        </section>
+        <section id="pro"></section>
+        <section class="section1">
+            <h2>Profesionales</h2>
 
-        <aside class="aside">
-            <h1>Profesionales</h1>
+            <table id="profesionales">
+                <tr>
+                    <td class="especialidad"><strong>Clinica</strong></td>
+                    <td class="nombre"><strong>Juan Alvarado</strong></td>
+                    <td class="imagen"><strong><img src="./imagenes/alvarado.jpg" alt=""></strong></td>
+                    <td class="detalle"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit nihil
+                        porro modi est amet a aspernatur recusandae libero, officiis ipsam.
+                    </td>
+
+                </tr>
+
+
+                <tr>
+                    <td class="especialidad"><strong>Pediatria</strong></td>
+                    <td class="nombre"><strong>Alberto Perez</strong></td>
+                    <td class="imagen"><strong><img src="./imagenes/perez.jpg" alt=""></strong></td>
+                    <td class="detalle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati numquam fuga
+                        aperiam fugiat quae molestiae recusandae eum iusto ducimus? Assumenda.</td>
+                </tr>
+
+                <tr>
+                    <td class="especialidad"><strong>Oftalmologia</strong></td>
+                    <td class="nombre"><strong>Gabriela Mansilla</strong></td>
+                    <td class="imagen"><strong><img src="./imagenes/masilla.jpg" alt=""></strong></td>
+                    <td class="detalle">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti deserunt
+                        aspernatur illum molestiae laborum maiores ad natus impedit minus nobis!</td>
+                </tr>
+
+
+            </table>
+        </section>
+        <a href="#home">Volver</a>
+        <section id="tur"></section>
+        <section class="turnos">
+
+            <h2>Grilla de Turnos</h2>
             <table>
                 <tr>
-                    <td>Especialidad</td>
-                    <td>Nombre y Apellido</td>
-                    <td>Foto</td>
-                </tr>
-                
-                <tr>
                     <td><strong>Clinica</strong></td>
-                    <td><strong>Juan Alvarado</strong></td>
-                    <td><strong><img src="./imagenes/alvarado.jpg" alt=""></strong></td>
-                
+                    <td>Lunes a Viernes de 8 a 14 hs</td>
+                    <td>Hospital Regional Rio Grande</td>
                 </tr>
-
                 <tr>
                     <td><strong>Pediatria</strong></td>
-                    <td><strong>Alberto Perez</strong></td>
-                    <td><strong><img src="./imagenes/perez.jpg" alt=""></strong></td>
-                </tr>
+                    <td>Lunes a Viernes de 8 a 14 hs</td>
+                    <td>Hospital Regional Rio Grande</td>
 
+                </tr>
                 <tr>
                     <td><strong>Oftalmologia</strong></td>
-                    <td><strong>Gabriela Mansilla</strong></td>
-                    <td><strong><img src="./imagenes/masilla.jpg" alt=""></strong></td>
-                </tr>                               
-                
+                    <td>Lunes a Viernes de 8 a 14 hs</td>
+                    <td>Hospital Regional Rio Grande</td>
+                </tr>
+                <tr>
+                    <td><strong>Dermatologia</strong></td>
+                    <td>Lunes a Viernes de 8 a 14 hs</td>
+                    <td>Hospital Regional Rio Grande</td>
+                </tr>
             </table>
 
-        </aside>
-        <section>
+        </section>
+        <a href="#home">Volver</a>
+
+        <section id="esp"></section>
+        <section class="tipo">
+            <ul>
+                <h2>Especialidades</h2>
+
+                <li>Clinica</li>
+                <img src="./imagenes/clinico.jpg" alt="">
+
+                <li>Pediatria</li>
+                <img src="./imagenes/pediatria.jpg" alt="Cli">
+                <li>Oftalmologia</li>
+                <img src="./imagenes/oftalmologia.jpg" alt="Cli">
+                <li>Dermatologia</li>
+                <img src="./imagenes/dermatologia.jpg" alt="Cli">
+                <li>Kinesiologia</li>
+                <img src="./imagenes/kinesiologia.jpg" alt="Cli">
+                <li>Odontologia</li>
+                <img src="./imagenes/odontologia.jpg" alt="Cli">
+
+            </ul>
+        </section>
+
+        <a href="#home">Volver</a>
+        <section id="con"></section>
+        <section class="contacto">
+            <h2>Conctacto</h2>
             <form>
-                <h1>Conctacto</h1>
+
                 <label for="iname">Nombres:</label>
                 <input id="iname" type="text" name="name">
-        
+
                 <label for="isurame">Apellidos:</label>
                 <input id="isurname" type="text" name="surname">
-        
+
                 <label for="iemail">Email:</label>
                 <input id="iemail" type="email" name="email">
-               
-                <label for="">Comentario:</label>
-                <input id="iemail" type="email" name="email">
-             
-        
+
+                <label for="Comentario">Comentario:</label>
+                <input id="Comentario" type="text" name="Comentario">
+
+
                 <label for="tentacles">Telefono:</label>
-                <input type="number" id="number" name="number">
-        
+                <input type="text" id="number" name="number">
+
                 <input type="submit" value="Enviar">
                 <input type="reset" value="Resetear">
-        
-        
+
             </form>
         </section>
+        <a href="#home">Volver</a>
     </main>
-    
-    
 
-    
+    <footer>
+        <p>© Copyright 2023 | HRRG | Desarrollado por Vision</p>
+    </footer>
+
 </body>
-<FOOter>
-    © Copyright 2023 | HRRG | Desarrollado por Vision 
-</FOOter>
+
 </html>
